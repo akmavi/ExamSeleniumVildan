@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://shop.pragmatic.bg/" />
+<title>ExamTestCase-Vildan Bilyanska</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">ExamTestCase-Vildan Bilyanska</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/admin/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=username</td>
+	<td>admin</td>
+</tr>
+<tr>
+	<td>typeAndWait</td>
+	<td>name=password</td>
+	<td>parola</td>
+</tr>
+<tr>
+	<td>typeAndWait</td>
+	<td>name=filter_name</td>
+	<td>samsung</td>
+</tr>
+<tr>
+	<td>assertConfirmation</td>
+	<td>Delete/Uninstall cannot be undone! Are you sure you want to do this?</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=product_description[1][name]</td>
+	<td>Samsung TV LED</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=product_description[1][meta_keyword]</td>
+	<td>The Best price, <br />The Best quality</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=product_description[1][meta_description]</td>
+	<td>Samsung Electronics,<br />South Korea</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=product_description[1][meta_description]</td>
+	<td>Samsung Electronics,<br />Samsung Group,<br />South Korea</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=product_description[1][tag]</td>
+	<td>Samsung TV LED</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=model</td>
+	<td>JU7500 Curved 4K</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=location</td>
+	<td>London</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=price</td>
+	<td>2000eur</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=stock_status_id</td>
+	<td>label=2 - 3 Days</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>LOCATOR_DETECTION_FAILED</td>
+	<td>C:\Users\TEST\Desktop\in-uhd-mu7500-ua65mu7500klxl-frontsilver-63476014.jpg</td>
+</tr>
+<tr>
+	<td>assertAlert</td>
+	<td>Warning: File too big please keep below 300kb and no more than 1000px height or width!</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>LOCATOR_DETECTION_FAILED</td>
+	<td>C:\Users\TEST\Desktop\18740736_10154807626667987_1168886720709339151_n.jpg</td>
+</tr>
+<tr>
+	<td>assertAlert</td>
+	<td>Success: Your file has been uploaded!</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=length</td>
+	<td>844.5mm</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=width</td>
+	<td>1463.5mm</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=height</td>
+	<td>907.6mm</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=length_class_id</td>
+	<td>label=Millimeter</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=weight</td>
+	<td>3.5kg</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//form[@id='form']/table/tbody/tr[4]/td[4]</td>
+	<td>JU7500 Curved 4K</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=product_discount[0][price]</td>
+	<td>200</td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
